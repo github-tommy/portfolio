@@ -9,7 +9,7 @@ body {
    box-sizing: border-box;
  }
  html {
-  font-size: big;
+  font-size: small;
   color: black;
 }
 
@@ -27,14 +27,51 @@ div {
 }
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 200px;}
-}
-
 @keyframes mymove {
     from {left: 0px;}
     to {left: 600px;}
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+h2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: aqua;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: pink;}
+
+#customers tr:hover {background-color: pink;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+p {
+    font-size: 16px;
+
+}
+h1 {
+    font-size: 50px;
+}
+img {
+    float: right;
 }
  body {
      background-color: #422700;
