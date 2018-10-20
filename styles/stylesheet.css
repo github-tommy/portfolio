@@ -1,0 +1,41 @@
+body {
+   color: white;
+ }
+ img {
+   border: 2px double orange;
+   width: 300px;
+ }
+ *{
+   box-sizing: border-box;
+ }
+ html {
+  font-size: big;
+  color: black;
+}
+
+#ex1 {
+  background-color: yellow;
+  color: black;
+}
+div {
+    width: 300px;
+    height: 50px;
+    background: yellow;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 600px;}
+}
+ body {
+     background-color: #422700;
+ }
