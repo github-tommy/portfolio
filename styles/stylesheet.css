@@ -2,7 +2,7 @@ body {
    color: black;
  }
  img {
-   border: 2px double orange;
+   border: 10px double #6B5B95;
    width: 300px;
  }
  *{
@@ -30,8 +30,9 @@ div {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: yellow;
-    border: 1px solid black;
+    color: black;
+    font-size: 50px;
+    border: 1px solid grey;
     background-color: #D2B48C;
     padding-top: 50px;
     padding-right: 30px;
@@ -43,8 +44,20 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     color: black;
+    font-size: 18px;
+    background-color: #C0AB8E;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    font-family: Helvetica
+}
+h3 {
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
     font-size: 15px;
-    background-color: pink;
+    background-color: #C0AB8E;
     padding-top: 5px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -77,8 +90,17 @@ form {
     color: black;
     font-family: Helvetica
 }
-h1 {
-    font-size: 50px;
+details {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: Helvetica
+}
+footer {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: Helvetica
 }
 #customers {
     font-family: Helvetica;
