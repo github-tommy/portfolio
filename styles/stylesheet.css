@@ -1,5 +1,5 @@
 body {
-   color: white;
+   color: black;
  }
  img {
    border: 2px double orange;
@@ -12,7 +12,6 @@ body {
   font-size: small;
   color: black;
 }
-
 #ex1 {
   background-color: yellow;
   color: black;
@@ -22,11 +21,8 @@ div {
     height: 50px;
     background: yellow;
     position: relative;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
     animation: mymove 5s infinite;
 }
-
-/* Safari 4.0 - 8.0 */
 @keyframes mymove {
     from {left: 0px;}
     to {left: 600px;}
@@ -35,27 +31,68 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: yellow;
+    border: 1px solid black;
+    background-color: #D2B48C;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    font-family: Helvetica
 }
 h2 {
     text-align: left;
     text-transform: uppercase;
-    color: aqua;
+    color: black;
+    font-size: 15px;
+    background-color: pink;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 80px;
+    font-family: Helvetica
+}
+p {
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+    font-family: Helvetica
+}
+nav {
+    font-size: 16px;
+    color: black;
+    font-family: Helvetica
+}
+address {
+    font-size: 16px;
+    color: black;
+    font-family: Helvetica
+}
+blockquote {
+    font-size: 16px;
+    color: black;
+    font-family: Helvetica
+}
+form {
+    font-size: 16px;
+    color: black;
+    font-family: Helvetica
+}
+h1 {
+    font-size: 50px;
 }
 #customers {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     border-collapse: collapse;
     width: 100%;
 }
-
 #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
 }
-
-#customers tr:nth-child(even){background-color: pink;}
-
-#customers tr:hover {background-color: pink;}
-
+#customers tr:nth-child(even){background-color: #4CAF50;
+}
+#customers tr:hover {background-color: #4CAF50
+}
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -63,16 +100,16 @@ h2 {
     background-color: #4CAF50;
     color: white;
 }
-p {
-    font-size: 16px;
-
-}
-h1 {
-    font-size: 50px;
-}
 img {
     float: right;
 }
  body {
-     background-color: #422700;
+     background-color: white;
+ }
+ section {
+     background-color: #D2B48C;
+     width: 1000px;
+     border: 25px solid green;
+     padding: 25px;
+     margin: 25px;
  }
