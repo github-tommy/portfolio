@@ -19,9 +19,8 @@ body {
 div {
     width: 300px;
     height: 50px;
-    background: yellow;
+    background: grey;
     position: relative;
-    animation: mymove 5s infinite;
 }
 @keyframes mymove {
     from {left: 0px;}
@@ -38,7 +37,7 @@ h1 {
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
-    font-family: Helvetica
+    font-family: 'Lobster', cursive;
 }
 h2 {
     text-align: left;
@@ -83,7 +82,7 @@ address {
 blockquote {
     font-size: 16px;
     color: black;
-    font-family: Helvetica
+    font-family: Helvetica;
 }
 form {
     font-size: 16px;
@@ -135,3 +134,37 @@ img {
      padding: 25px;
      margin: 25px;
  }
+ article{
+   /*border: 2px solid red;*/
+   float: left;
+ }
+ .main-article{
+   width: 70%;
+ }
+ .side-bar-article{
+   width: 30%
+ }
+ .flex-container{
+   display: flex;
+   border: 2px dotted gray;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .seattle{
+   background-color: pink;
+   font-style: italic;
+   font-family: fantasy;
+   text-align: center;
+ }
+ .bellevue{
+   background-color: blue;
+   font-style: italic;
+   font-family: fantasy;
+   text-align: center;
+ } .redmond{
+    background-color: yellow;
+    font-style: italic;
+    font-family: fantasy;
+    text-align: center;
+  }
