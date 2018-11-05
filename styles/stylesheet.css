@@ -117,10 +117,14 @@ nav li{
       font-style: italic;
       font-family: fantasy;
       text-align: center;
-    }
-    .sammamish{
+  }
+  .sammamish{
       background-color: gold;
       font-style: italic;
       font-family: fantasy;
       text-align: center;
+  }
+  html {
+       background: url(greatimage.jpg);
+       background-size: 800px 100px;
      }
