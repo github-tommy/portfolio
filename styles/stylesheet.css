@@ -8,9 +8,16 @@ h1{
   font-size: 50px;
   text-align: center;
 }
-h2{;
+h2{
   font-size: 20px;
-  font-family: Helvetica;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+}
+h3{
+  text-align: center;
+  color: white;
+  background-color: darkgrey;
+
 }
 h4{
   text-align: center;
@@ -26,7 +33,7 @@ footer{
     clear: both;
   }
 nav{
-    background-color: aqua;
+    background-color: lightblue;
     overflow: auto;
     margin: 0;
   }
@@ -124,7 +131,10 @@ nav li{
       font-family: fantasy;
       text-align: center;
   }
-  html {
+html {
        background: url(greatimage.jpg);
-       background-size: 800px 100px;
+       background-size: 300px 100px;
      }
+a:visited {
+color: orange;
+}
