@@ -185,3 +185,6 @@ p:nth-child(3n){
 .grid div:nth-child(odd){
   background-color: green;
 }
+p::first-letter{
+  font-size: 2rem;
+}
