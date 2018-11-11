@@ -187,4 +187,5 @@ p:nth-child(3n){
 }
 p::first-letter{
   font-size: 2rem;
+  color: #0000ff;
 }
