@@ -152,9 +152,8 @@ color: green;
 }
 a:hover{
   font-weight: bold;
-  color: white;
-  font-size: 2rem;
-  background-color: black;
+  color: black;
+  background-color: white;
   border: 3px orange;
 }
 div[class^="card"]{
