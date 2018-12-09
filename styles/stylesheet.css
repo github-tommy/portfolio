@@ -5,32 +5,21 @@ header{
     background-color: silver;
 }
 h1{
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
 }
 h2{
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Patrick Hand', cursive;
   text-align: center;
 }
 h3{
   text-align: center;
-  color: yellow;
-  background-color: black;
-}
-h3:hover{
-  font-size: 1.5rem;
-  background-color: white;
   color: black;
 }
 h4{
   text-align: center;
   font-size: 20px;
-}
-img:hover{
-  width:300px;
-  height:200px;
-  transform: rotate(5deg);
 }
 main {
     background-color: lightgray;
@@ -41,19 +30,54 @@ footer{
     overflow: auto;
     clear: both;
   }
-nav{
-    background-color: lightblue;
-    overflow: auto;
-    margin: 0;
+  .site-nav{
+    width: 100%;
+    background-color: gray;
   }
-nav ul{
-      list-style-type: none;
-      padding: 0;
+  .site-nav a{
+    color: white;
+    text-decoration: none;
   }
-nav li{
-    float: left;
-    margin: 0;
-    padding: .5rem 1rem .5rem 0;
+  .site-nav ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .site-nav a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .site-nav li{
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    padding: .5rem 2.5rem;
+  }
+  .site-nav li:hover{
+  background-color: black;
+  }
+  .site-nav ul.drop-down{
+    display: none;
+    min-width: 10rem;
+    background-color: lightgray;
+    top: 2.1rem;
+    left: 0;
+    position: absolute;
+  }
+  .site-nav >ul> li:hover ul.drop-down{
+    display: block;
+  }
+  .site-nav ul.drop-down li{
+   display: block;
+   width: 100%;
+   padding:.5rem 1rem;
+  }
+  
+  .site-nav ul.drop-down a{
+    color: black;
+  }
+  .site-nav ul.drop-down li:hover a{
+    color: white;
   }
   article{
       float: left;
@@ -65,8 +89,10 @@ nav li{
       width: 60%;
     }
   .side-column{
-      width: 40%;
+      width: 37%;
       font-family: 'Patrick Hand', cursive;
+      font: white;
+      background-color: darkgrey;
     }
   .wrapper{
         margin: 0 auto;
@@ -81,13 +107,13 @@ nav li{
    align-items: center;
  }
 .seattle{
-    background-color: pink;
+    background-color:darkred;
     font-style: italic;
     font-family: fantasy;
     text-align: center;
 }
 .bellevue{
-    background-color: yellow;
+    background-color: darkorchid;
     font-style: italic;
     font-family: fantasy;
     text-align: center;
@@ -148,12 +174,10 @@ a{
      text-decoration : none;
      }
 a:visited {
-color: green;
+color:white;
 }
 a:hover{
   font-weight: bold;
-  color: black;
-  background-color: white;
   border: 3px orange;
 }
 div[class^="card"]{
@@ -165,7 +189,7 @@ div.card-bold{
   box-shadow: 3px 3px 8px black;
 }
 p:nth-child(3n){
-  color: green;
+  color: black;
 }
 #delay {
   font-size: 14px;
@@ -179,12 +203,13 @@ p:nth-child(3n){
 }
 
 .grid div:nth-child(even){
-  background-color: red;
+  background-color:lightsalmon;
 }
 .grid div:nth-child(odd){
-  background-color: green;
+  background-color: white;
+  font: darkgrey;
 }
 p::first-letter{
-  font-size: 2rem;
-  color: #0000ff;
+  font-size: 1rem;
+  color: black;
 }

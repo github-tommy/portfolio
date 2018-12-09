@@ -10,21 +10,21 @@
     </head>
     <body style="background-image:url('img/seattle.jpg')">
         <header>
+            <nav>
+                <ul class="site-nav">
+                    <li><a href="contact-me.html">Contact Me</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="area.html">Area</a></li>
+                    <li><a href="testimonial.html">Testimonial</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                </ul>
+            </nav>
         <div class="wrapper">
             <h1><strong><em>Tommy's Seattle Real Estate</em></strong></h1>
-            <h3>Tommy Surjadi, Realtor - Coldwell Banker - Finance Background - Multilingual: Mandarin, Indonesian & English ~ Passion to Assist with Your Real Estate Need ~</h3>
+            <h3>Tommys, Realtor - Coldwell Banker - Finance Background - Multilingual: Mandarin, Indonesian & English ~ Passion to Assist with Your Real Estate Need ~</h3>
             <h2>A licensed realtor and coffee enthusiast in Seattle "World Center for Coffee & Coffee Roasting"</h2>
         </div>
         </header>
-        <nav>
-            <ul class="wrapper">
-                <li><a href="contact-me.html">Contact Me</a></li>
-                <li><a href="about-me.html">About Me</a></li>
-                <li><a href="area.html">Area</a></li>
-                <li><a href="testimonial.html">Testimonial</a></li>
-                <li><a href="sitemap.html">Sitemap</a></li>
-            </ul>
-        </nav>
         <div class="wrapper">
             <a href="img/seattle.jpg"><i class="fas fa-cloud"></i></a>
             <a href="img/seattle.jpg"><i class="fas fa-address-book"></i></a>
@@ -47,7 +47,7 @@
           </div class="wrapper">
                 <img src="img/robusta.jpg" alt="robusta beans" height="200" width="370">
                 <img src="img/house.jpg" alt="house" height="200" width="370">
-                <img src="img/seattle.jpg" alt="seattle" height="200" width="370">
+                <img src="img/seattle.jpg" alt="seattle" height="200" width="350">
           <main class="wrapper">
               <article class="main-column">
                 <h2>Coffee & Coffee Beans</h2>
@@ -82,15 +82,12 @@
                   <h2>My Profile</h2>
                   <p>A multilingual licensed realtor with over 20 years of finance, wealth management & real estate experience. Covering Bellevue, Kirkland, Redmond, Issaquah, Sammamish, Providence Point and other greater Seattle area.</p>
                   <h2>
-                      <strong><mark>Mobile: +1-206-765-7866</mark></strong>
-                  </h2>
-                  <h2>
-                      <strong>tommysurjadi@gmail.com</strong>
+                      <strong>Mobile: +1-206-765-7866</strong>
                   </h2>
                   <p>
                       <strong>Opening hours <time>09:00</time> to <time> 21:00</time> everyday.</strong>
                   </p>
-                      <address><strong>Address: NW Sammamish Rd, Issaquah WA 98027</strong></address>
+                      <address><strong>Bellevue - Issaquah WA</strong></address>
                   <p>
                       <b><u>"PASSION TO ASSIST WITH YOUR REAL ESTATE NEEDS"</u></b>
                   </p>
@@ -108,25 +105,31 @@
                 <header>
                     <h4>Please area of your interest:</h4>
                 </header>
-                <p>
-                    Join my mailing list:
-                </p>
+                <fieldset>
+                <legend>Join my mailing list:</legend>
                 <form action="/action_page.php">
-                    First name: <input type="text" name="FirstName" value=" "><br>
-                    Last name: <input type="text" name="LastName" value=" "><br>
-                    Phone#: <input type="text" name="Phone#" value=" "><br>
-                    Email    : <input type="text" name="EmailAddress" value=" "><br>
-                </form>
-                <p>
-                    Please click on the area of your interest:
-                </p>
-                <form action="/action_page.php">
+                    <label>
+                        <input type="text" name="first-name" id="first-name" required placeholder="Enter your first name">
+                    </label>
+                    <label>
+                        <input type="text" name="last-name" id="last-name" required placeholder="Enter your last name">
+                    </label>
+                    <label>
+                        <input type="email" name="user-email" id="user-email" required placeholder="Enter your email address">
+                    </label>
+                    <label>
+                        <input type="phone" name="phone" id="phone" required placeholder="Enter your phone#">
+                    </label>
+                   I am interested in:
                     <label for="real-estate">Real Estate</label>
-                    <input type="radio" name="area" id="real-estate" value="Real estate"><br>
+                    <input type="radio" name="area" id="real-estate" value="Real estate">
                     <label for="coffee">Coffee</label>
-                    <input type="radio" name="area" id="coffee" value="Coffee"><br>
+                    <input type="radio" name="area" id="coffee" value="Coffee">
+                    <label for="both">Both</label>
+                    <input type="radio" name="area" id="both" value="both">
                 <br>
                     <input type="submit" value="Submit">
+                </fieldset>
                 </form>
                 <section>
                    <h2>Roasters in Seattle</h2>
@@ -163,8 +166,8 @@
                 </div>
             </footer>
             <details>
-                <summary>Copyright by tommybook@2018</summary>
-                tommybook has been developed by Tommy in 2018, in collaboration and under supervision of his mentor, Sheyna Watkins, UW.
+                <summary>Copyright by tommybook@</summary>
+                This has been developed by tommybook@, in collaboration and under supervision of his mentor, Sheyna Watkins, UW.
             </details>
     </body>
 </html>
