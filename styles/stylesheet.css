@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: silver;
+    background-color: whitesmoke;
 }
 h1{
   font-size: 40px;
@@ -22,17 +22,17 @@ h4{
   font-size: 20px;
 }
 main {
-    background-color: lightgray;
+    background-color: white;
     overflow: auto;
   }
 footer{
-    background-color: lightblue;
+    background-color:black;
     overflow: auto;
     clear: both;
   }
   .site-nav{
     width: 100%;
-    background-color: gray;
+    background-color: black;
   }
   .site-nav a{
     color: white;
@@ -91,8 +91,7 @@ footer{
   .side-column{
       width: 37%;
       font-family: 'Patrick Hand', cursive;
-      font: white;
-      background-color: darkgrey;
+      background-color: transparent;
     }
   .wrapper{
         margin: 0 auto;
@@ -119,31 +118,31 @@ footer{
     text-align: center;
 }
 .magnolia{
-          background-color: orange;
+          background-color:yellow;
           font-style: italic;
           font-family: fantasy;
           text-align: center;
         }
   .medina{
-    background-color: gold;
+    background-color: red;
     font-style: italic;
     font-family: fantasy;
     text-align: center;
   }
   .clyde-hill{
-    background-color: green;
+    background-color: aqua;
     font-style: italic;
     font-family: fantasy;
     text-align: center;
   }
   .redmond{
-     background-color: red;
+     background-color:red;
      font-style: italic;
      font-family: fantasy;
      text-align: center;
    }
    .kirkland{
-     background-color: pink;
+     background-color:silver;
      font-style: italic;
      font-family: fantasy;
      text-align: center;
@@ -155,13 +154,13 @@ footer{
      text-align: center;
    }
   .providence-point{
-      background-color: orange;
+      background-color:silver;
       font-style: italic;
       font-family: fantasy;
       text-align: center;
   }
   .sammamish{
-      background-color: gold;
+      background-color:salmon;
       font-style: italic;
       font-family: fantasy;
       text-align: center;
@@ -203,11 +202,13 @@ p:nth-child(3n){
 }
 
 .grid div:nth-child(even){
-  background-color:lightsalmon;
+  background-color:black;
+  color: white;
+  text-align: center;
 }
 .grid div:nth-child(odd){
-  background-color: white;
-  font: darkgrey;
+  background-color: whitesmoke;
+  text-align: center;
 }
 p::first-letter{
   font-size: 1rem;
